@@ -1,0 +1,7 @@
+node_modules/
+pnpm-lock.yaml
+*.tgz
+.DS_Store
+
+# scratch workspace, tracked separately at GzSakura1338/dsh-tools
+dsh tools/

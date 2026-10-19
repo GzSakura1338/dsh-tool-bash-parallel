@@ -1,0 +1,24 @@
+{
+  "name": "@local/dsh-tool-bash-parallel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Adds a bash_parallel tool that runs 2-10 independent shell commands concurrently.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Parallel Bash",
+    "description": "Runs 2-16 independent shell commands at once in a single tool call."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "并行 Bash",
+    "description": "在一次工具调用里同时运行 2-16 条互不依赖的 shell 命令。"
+  }
+}

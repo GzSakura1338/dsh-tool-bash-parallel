@@ -1,0 +1,5 @@
+# Bundle patch: mount the parallel bash tool on the host plane so every agent
+# scope (and therefore every session and preset) sees it.
+- insert:
+    - id: tool-bash-parallel
+      name: '@local/dsh-tool-bash-parallel'
